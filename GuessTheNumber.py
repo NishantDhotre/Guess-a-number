@@ -23,8 +23,6 @@ def start():
     heading2 = Label(window, text="\" Let's start the game\"", fg="black")
     heading2.place(relx=0.5, rely=0.2, anchor=CENTER)
 
-
-
     inputSection = Entry(window, width=10, bg="white")
     inputSection.focus()
     inputSection.place(relx=0.5, rely=0.4, anchor=CENTER)
@@ -42,12 +40,12 @@ def start():
         result(x)
 
     submitButton = Button(window,
-                 text="submit",
-                 bg="green",
-                 fg="white",
-                 command=clicked)
+                          text="submit",
+                          bg="green",
+                          fg="white",
+                          command=clicked)
     submitButton.place(relx=0.8, rely=0.4, anchor=CENTER)
-    endButton = Button(window, text="Give up.!", fg="red", command = up)
+    endButton = Button(window, text="Give up.!", fg="red", command=up)
     endButton.place(relx=0.5, rely=0.6, anchor=CENTER)
 
 
@@ -59,10 +57,10 @@ if __name__ == "__main__":
     heading.pack()
     heading.place(relx=0.5, rely=0.3, anchor=CENTER)
     startButton = tkinter.Button(window,
-                        text=">start<",
-                        bg="gray",
-                        fg="white",
-                        command=start)
+                                 text=">start<",
+                                 bg="gray",
+                                 fg="white",
+                                 command=start)
     startButton.pack()
     startButton.flash()
     startButton.place(relx=0.5, rely=0.5, anchor=CENTER)
