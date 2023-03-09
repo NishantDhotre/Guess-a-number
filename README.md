@@ -29,7 +29,4 @@ simple python project made by using librair `tkinter`.
 ![App Screenshot](https://github.com/NishantDhotre/Guess-a-number/blob/2ee4fcc958396813f0555ba1d979e4d829a5a74b/screenShots/Screenshot%20(389).png)
 
 ---
-### game window
-![App Screenshot](https://github.com/NishantDhotre/Guess-a-number/blob/2ee4fcc958396813f0555ba1d979e4d829a5a74b/screenShots/Screenshot%20(390).png)
 
----
